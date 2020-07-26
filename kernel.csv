@@ -1,0 +1,17 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# dso: so
+#
+# Total Lost Samples: 0
+#
+# Samples: 61  of event 'cpu-clock'
+# Event count (approx.): 15250000
+#
+# Children      Self  Command  Symbol
+# ........  ........  .......  ......
+#
+
+
+#
+# (For a higher level overview, try: perf report --sort comm,dso)
+#

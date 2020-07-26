@@ -1,0 +1,64 @@
+   PID   SPID TTY          TIME CMD
+ 15154  15154 ?        00:00:08 firefox
+ 15154  15160 ?        00:00:00 dconf worker
+ 15154  15161 ?        00:00:00 gmain
+ 15154  15162 ?        00:00:00 gdbus
+ 15154  15163 ?        00:00:00 Gecko_IOThread
+ 15154  15164 ?        00:00:00 Timer
+ 15154  15165 ?        00:00:00 Netlink Monitor
+ 15154  15166 ?        00:00:00 Socket Thread
+ 15154  15167 ?        00:00:00 Permission
+ 15154  15170 ?        00:00:00 JS Watchdog
+ 15154  15171 ?        00:00:00 JS Helper
+ 15154  15172 ?        00:00:00 JS Helper
+ 15154  15174 ?        00:00:00 Cache2 I/O
+ 15154  15175 ?        00:00:00 Cookie
+ 15154  15177 ?        00:00:00 DOM Worker
+ 15154  15178 ?        00:00:00 IPDL Background
+ 15154  15191 ?        00:00:00 QuotaManager IO
+ 15154  15193 ?        00:00:00 Worker Launcher
+ 15154  15194 ?        00:00:00 Softwar~cThread
+ 15154  15195 ?        00:00:00 Compositor
+ 15154  15196 ?        00:00:00 ImgDecoder #1
+ 15154  15197 ?        00:00:00 ImageIO
+ 15154  15199 ?        00:00:00 ImageBridgeChld
+ 15154  15204 ?        00:00:00 StreamTrans #18
+ 15154  15208 ?        00:00:00 DOM Worker
+ 15154  15209 ?        00:00:00 Breakpad Server
+ 15154  15210 ?        00:00:00 firefox
+ 15154  15211 ?        00:00:00 IPC Launch
+ 15154  15214 ?        00:00:00 GMPThread
+ 15154  15216 ?        00:00:00 FS Broker 15212
+ 15154  15217 ?        00:00:00 ProcessHangMon
+ 15154  15232 ?        00:00:00 AudioIPC Callba
+ 15154  15233 ?        00:00:00 AudioIPC Server
+ 15154  15236 ?        00:00:00 TRR Background
+ 15154  15238 ?        00:00:00 DataStorage
+ 15154  15239 ?        00:00:00 cert_storage
+ 15154  15240 ?        00:00:00 DNS Resolver #1
+ 15154  15241 ?        00:00:00 Backgro~Pool #1
+ 15154  15242 ?        00:00:00 Cache I/O
+ 15154  15259 ?        00:00:00 mozStorage #1
+ 15154  15264 ?        00:00:00 localStorage DB
+ 15154  15268 ?        00:00:00 FS Broker 15265
+ 15154  15269 ?        00:00:00 mozStorage #2
+ 15154  15281 ?        00:00:00 threaded-ml
+ 15154  15288 ?        00:00:00 mozStorage #3
+ 15154  15289 ?        00:00:00 DNS Resolver #2
+ 15154  15290 ?        00:00:00 DNS Resolver #3
+ 15154  15291 ?        00:00:00 DNS Resolver #4
+ 15154  15294 ?        00:00:00 HTML5 Parser
+ 15154  15303 ?        00:00:00 FS Broker 15300
+ 15154  15331 ?        00:00:00 DOM Worker
+ 15154  15332 ?        00:00:00 URL Classifier
+ 15154  15337 ?        00:00:00 mozStorage #4
+ 15154  15338 ?        00:00:00 BgIOThr~Pool #1
+ 15154  15340 ?        00:00:00 mozStorage #5
+ 15154  15342 ?        00:00:00 mozStorage #6
+ 15154  15370 ?        00:00:00 mozStorage #7
+ 15154  15386 ?        00:00:00 FS Broker 15383
+ 15154  15580 ?        00:00:00 mozStorage #8
+ 15154  15706 ?        00:00:00 IndexedDB #7
+ 15154  15854 ?        00:00:00 StreamTrans #24
+ 15154  15855 ?        00:00:00 IndexedDB #8
+ 15154  15865 ?        00:00:00 IndexedDB #9

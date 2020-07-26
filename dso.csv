@@ -1,0 +1,24 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 61  of event 'cpu-clock'
+# Event count (approx.): 15250000
+#
+# Children      Self  Shared Object          
+# ........  ........  .......................
+#
+    67.21%     0.00%  [unknown]              
+    65.57%    55.74%  libxul.so              
+    19.67%    19.67%  [kernel.kallsyms]      
+    13.11%     3.28%  libc-2.23.so           
+    11.48%     1.64%  libpthread-2.23.so     
+     8.20%     8.20%  firefox                
+     1.64%     1.64%  [vdso]                 
+     1.64%     1.64%  ld-2.23.so             
+     1.64%     1.64%  libX11.so.6.3.0        
+     1.64%     1.64%  libdbus-glib-1.so.2.3.3
+     1.64%     1.64%  libglib-2.0.so.0.4800.2
+     1.64%     1.64%  libnspr4.so            
+     1.64%     1.64%  libxcb.so.1.1.0

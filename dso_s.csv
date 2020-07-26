@@ -1,0 +1,658 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 61  of event 'cpu-clock'
+# Event count (approx.): 15250000
+#
+# Children      Self  Shared Object          
+# ........  ........  .......................
+#
+    67.21%     0.00%  [unknown]              
+            |          
+            |--6.56%-- 0x2825048b4864
+            |          0x2fb3700
+            |          0x4
+            |          0xa2bbc464
+            |          |          
+            |          |--1.64%-- 0x1732430
+            |          |          
+            |          |--1.64%-- mozilla::BaseTimeDurationPlatformUtils::ToSeconds
+            |          |          
+            |          |--1.64%-- moz_xmalloc
+            |          |          
+            |           --1.64%-- pthread_cond_timedwait@@GLIBC_2.3.2
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_futex
+            |                     do_futex
+            |                     futex_wait
+            |                     futex_wait_queue_me
+            |                     schedule
+            |                     __schedule
+            |                     finish_task_switch
+            |          
+            |--6.56%-- 0
+            |          |          
+            |          |--1.64%-- 0x4e72a98
+            |          |          0x4e7584a
+            |          |          
+            |          |--1.64%-- pthread_cond_signal@@GLIBC_2.3.2
+            |          |          entry_SYSCALL_64_fastpath
+            |          |          sys_futex
+            |          |          do_futex
+            |          |          futex_wake_op
+            |          |          wake_up_q
+            |          |          try_to_wake_up
+            |          |          _raw_spin_unlock_irqrestore
+            |          |          
+            |          |--1.64%-- 0x7f6600000001
+            |          |          0x47434
+            |          |          
+            |           --1.64%-- 0
+            |                     pthread_cond_wait@@GLIBC_2.3.2
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_futex
+            |                     do_futex
+            |                     futex_wait
+            |                     futex_wait_queue_me
+            |                     schedule
+            |                     __schedule
+            |                     finish_task_switch
+            |          
+            |--3.28%-- 0x62094cac8053fe00
+            |          0x1
+            |          |          
+            |          |--1.64%-- syscall
+            |          |          entry_SYSCALL_64_fastpath
+            |          |          sys_epoll_wait
+            |          |          ep_poll
+            |          |          ep_scan_ready_list
+            |          |          ep_send_events_proc
+            |          |          sock_poll
+            |          |          
+            |           --1.64%-- __vdso_clock_gettime
+            |          
+            |--3.28%-- 0xff24448d491374e4
+            |          0x285
+            |          |          
+            |          |--1.64%-- 0xfb80d
+            |          |          entry_SYSCALL_64_fastpath
+            |          |          sys_poll
+            |          |          do_sys_poll
+            |          |          poll_schedule_timeout
+            |          |          schedule_hrtimeout_range
+            |          |          schedule_hrtimeout_range_clock
+            |          |          schedule
+            |          |          __schedule
+            |          |          finish_task_switch
+            |          |          
+            |           --1.64%-- __GI___libc_recvmsg
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_recvmsg
+            |                     __sys_recvmsg
+            |                     ___sys_recvmsg
+            |                     copy_msghdr_from_user
+            |          
+            |--3.28%-- 0x1000001
+            |          |          
+            |          |--1.64%-- 0x15d3b30
+            |          |          
+            |           --1.64%-- 0xfb80d
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_poll
+            |                     do_sys_poll
+            |                     poll_schedule_timeout
+            |                     schedule_hrtimeout_range
+            |                     schedule_hrtimeout_range_clock
+            |                     schedule
+            |                     __schedule
+            |                     finish_task_switch
+            |          
+            |--3.28%-- 0x1
+            |          |          
+            |          |--1.64%-- 0xeb55a3
+            |          |          
+            |           --1.64%-- pthread_cond_timedwait@@GLIBC_2.3.2
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_futex
+            |                     do_futex
+            |                     futex_wait
+            |                     futex_wait_queue_me
+            |                     schedule
+            |                     __schedule
+            |                     finish_task_switch
+            |          
+            |--3.28%-- 0x8d058d48fe894953
+            |          |          
+            |          |--1.64%-- 0x1694a40
+            |          |          0x1
+            |          |          0x169362b
+            |          |          
+            |           --1.64%-- 0x15d13f0
+            |                     0x7f666ab48000
+            |                     0x15d2411
+            |          
+            |--3.28%-- 0x401f0ffda7a954
+            |          0x2eac4b0
+            |          0x7f66a226dd08
+            |          |          
+            |          |--1.64%-- 0x2f29180
+            |          |          
+            |           --1.64%-- _init
+            |          
+            |--3.28%-- 0x62094cac8053fe00
+            |          0x1
+            |          syscall
+            |          entry_SYSCALL_64_fastpath
+            |          sys_epoll_wait
+            |          ep_poll
+            |          schedule_hrtimeout_range
+            |          schedule_hrtimeout_range_clock
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+            |--1.64%-- 0xf8894804751ffe83
+            |          0x310ef30
+            |          0
+            |          0x30b1839
+            |          
+            |--1.64%-- 0x6e6f6974636e75
+            |          0x2000000
+            |          0x250002770080
+            |          0x298ca8ee1678
+            |          0x7f6690850800
+            |          0x460950c
+            |          
+            |--1.64%-- 0x6b7261442d
+            |          0x7f668dfa8358
+            |          0x7ffc89e56ac0
+            |          0x4b86e9c
+            |          
+            |--1.64%-- 0x7f66a22d75
+            |          0x25cc41c
+            |          
+            |--1.64%-- 0xed05740f66066f0f
+            |          0x92b5d0
+            |          0x1
+            |          __memset_avx2
+            |          
+            |--1.64%-- 0x8d48fb8948f78949
+            |          0xef52f0
+            |          0x1
+            |          0x80762
+            |          
+            |--1.64%-- 0x2825048b4864d189
+            |          0x92c5a0
+            |          0xe5e5e5e500000000
+            |          0x122e1eb
+            |          
+            |--1.64%-- 0x3d929a00
+            |          0x4b8662b
+            |          
+            |--1.64%-- 0x9066ffe82d42e9c3
+            |          0x32774f0
+            |          0x8ac
+            |          0x32f2f4c
+            |          
+            |--1.64%-- 0xb848066f0ff3fb89
+            |          0xab2910
+            |          0x7f66a1fc5400
+            |          0xab2ca0
+            |          
+            |--1.64%-- 0x29006c006c
+            |          0x2000100000000
+            |          0x164e030
+            |          
+            |--1.64%-- 0x22588
+            |          __lll_unlock_wake
+            |          int_ret_from_sys_call
+            |          syscall_return_slowpath
+            |          exit_to_usermode_loop
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+            |--1.64%-- 0x100002040
+            |          0x80234
+            |          
+            |--1.64%-- 0x4
+            |          0x15bac68
+            |          
+            |--1.64%-- 0x7f66a2063c70
+            |          0x2ecee0f
+            |          
+            |--1.64%-- 0x7f668df0b000
+            |          __tls_get_addr
+            |          
+            |--1.64%-- 0x7f668cf9f510
+            |          0x2e87710
+            |          
+            |--1.64%-- 0x7f668b92c418
+            |          0
+            |          0x26faf57
+            |          
+             --1.64%-- 0x7f668b92b7e8
+                       0
+                       0x26faf5d
+
+    65.57%    55.74%  libxul.so              
+            |          
+            |--4.92%-- 0x2fb3700
+            |          0x4
+            |          0xa2bbc464
+            |          |          
+            |          |--1.64%-- mozilla::BaseTimeDurationPlatformUtils::ToSeconds
+            |          |          
+            |          |--1.64%-- moz_xmalloc
+            |          |          
+            |           --1.64%-- pthread_cond_timedwait@@GLIBC_2.3.2
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_futex
+            |                     do_futex
+            |                     futex_wait
+            |                     futex_wait_queue_me
+            |                     schedule
+            |                     __schedule
+            |                     finish_task_switch
+            |          
+            |--3.28%-- 0x92c80c
+            |          
+            |--3.28%-- 0x8d058d48fe894953
+            |          |          
+            |          |--1.64%-- 0x1694a40
+            |          |          0x1
+            |          |          0x169362b
+            |          |          
+            |           --1.64%-- 0x15d13f0
+            |                     0x7f666ab48000
+            |                     0x15d2411
+            |          
+            |--1.64%-- 0xf8894804751ffe83
+            |          0x310ef30
+            |          0
+            |          0x30b1839
+            |          
+            |--1.64%-- 0x6e6f6974636e75
+            |          0x2000000
+            |          0x250002770080
+            |          0x298ca8ee1678
+            |          0x7f6690850800
+            |          0x460950c
+            |          
+            |--1.64%-- 0x6b7261442d
+            |          0x7f668dfa8358
+            |          0x7ffc89e56ac0
+            |          0x4b86e9c
+            |          
+            |--1.64%-- 0x7f66a22d75
+            |          0x25cc41c
+            |          
+            |--1.64%-- 0x2825048b4864d189
+            |          0x92c5a0
+            |          0xe5e5e5e500000000
+            |          0x122e1eb
+            |          
+            |--1.64%-- 0x3d929a00
+            |          0x4b8662b
+            |          
+            |--1.64%-- 0x9066ffe82d42e9c3
+            |          0x32774f0
+            |          0x8ac
+            |          0x32f2f4c
+            |          
+            |--1.64%-- 0xb848066f0ff3fb89
+            |          0xab2910
+            |          0x7f66a1fc5400
+            |          0xab2ca0
+            |          
+            |--1.64%-- 0x2825048b4864
+            |          0x2fb3700
+            |          0x4
+            |          0xa2bbc464
+            |          0x1732430
+            |          
+            |--1.64%-- 0x42cad3c
+            |          
+            |--1.64%-- 0x4198d55
+            |          
+            |--1.64%-- 0x3de2d9b
+            |          
+            |--1.64%-- 0x30a017b
+            |          
+            |--1.64%-- 0x30488e6
+            |          
+            |--1.64%-- 0x2eac4b0
+            |          0x7f66a226dd08
+            |          _init
+            |          
+            |--1.64%-- 0x2da3952
+            |          
+            |--1.64%-- 0x1954ff0
+            |          
+            |--1.64%-- 0x15ca807
+            |          
+            |--1.64%-- 0x1000001
+            |          0x15d3b30
+            |          
+            |--1.64%-- 0xef52f0
+            |          0x1
+            |          0x80762
+            |          
+            |--1.64%-- 0x931c08
+            |          
+            |--1.64%-- 0x92b5d0
+            |          0x1
+            |          __memset_avx2
+            |          
+            |--1.64%-- 0x91bef6
+            |          
+            |--1.64%-- 0x90ab1a
+            |          
+            |--1.64%-- 0x29006c006c
+            |          0x2000100000000
+            |          0x164e030
+            |          
+            |--1.64%-- 0x4
+            |          0x15bac68
+            |          
+            |--1.64%-- 0x1
+            |          0xeb55a3
+            |          
+            |--1.64%-- 0x200000000
+            |          0x4e72a98
+            |          0x4e7584a
+            |          
+            |--1.64%-- 0x401f0ffda7a954
+            |          0x2eac4b0
+            |          0x7f66a226dd08
+            |          0x2f29180
+            |          
+            |--1.64%-- 0x7f66a2063c70
+            |          0x2ecee0f
+            |          
+            |--1.64%-- 0x7f668cf9f510
+            |          0x2e87710
+            |          
+            |--1.64%-- 0x7f668b92c418
+            |          0
+            |          0x26faf57
+            |          
+             --1.64%-- 0x7f668b92b7e8
+                       0
+                       0x26faf5d
+
+    19.67%    19.67%  [kernel.kallsyms]      
+            |          
+            |--4.92%-- 0x62094cac8053fe00
+            |          0x1
+            |          syscall
+            |          entry_SYSCALL_64_fastpath
+            |          sys_epoll_wait
+            |          ep_poll
+            |          |          
+            |          |--3.28%-- schedule_hrtimeout_range
+            |          |          schedule_hrtimeout_range_clock
+            |          |          schedule
+            |          |          __schedule
+            |          |          finish_task_switch
+            |          |          
+            |           --1.64%-- ep_scan_ready_list
+            |                     ep_send_events_proc
+            |                     sock_poll
+            |          
+            |--3.28%-- 0xff24448d491374e4
+            |          0x285
+            |          |          
+            |          |--1.64%-- 0xfb80d
+            |          |          entry_SYSCALL_64_fastpath
+            |          |          sys_poll
+            |          |          do_sys_poll
+            |          |          poll_schedule_timeout
+            |          |          schedule_hrtimeout_range
+            |          |          schedule_hrtimeout_range_clock
+            |          |          schedule
+            |          |          __schedule
+            |          |          finish_task_switch
+            |          |          
+            |           --1.64%-- __GI___libc_recvmsg
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_recvmsg
+            |                     __sys_recvmsg
+            |                     ___sys_recvmsg
+            |                     copy_msghdr_from_user
+            |          
+            |--3.28%-- 0
+            |          |          
+            |          |--1.64%-- pthread_cond_signal@@GLIBC_2.3.2
+            |          |          entry_SYSCALL_64_fastpath
+            |          |          sys_futex
+            |          |          do_futex
+            |          |          futex_wake_op
+            |          |          wake_up_q
+            |          |          try_to_wake_up
+            |          |          _raw_spin_unlock_irqrestore
+            |          |          
+            |           --1.64%-- 0
+            |                     pthread_cond_wait@@GLIBC_2.3.2
+            |                     entry_SYSCALL_64_fastpath
+            |                     sys_futex
+            |                     do_futex
+            |                     futex_wait
+            |                     futex_wait_queue_me
+            |                     schedule
+            |                     __schedule
+            |                     finish_task_switch
+            |          
+            |--1.64%-- 0x2825048b4864
+            |          0x2fb3700
+            |          0x4
+            |          0xa2bbc464
+            |          pthread_cond_timedwait@@GLIBC_2.3.2
+            |          entry_SYSCALL_64_fastpath
+            |          sys_futex
+            |          do_futex
+            |          futex_wait
+            |          futex_wait_queue_me
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+            |--1.64%-- 0x1000001
+            |          0xfb80d
+            |          entry_SYSCALL_64_fastpath
+            |          sys_poll
+            |          do_sys_poll
+            |          poll_schedule_timeout
+            |          schedule_hrtimeout_range
+            |          schedule_hrtimeout_range_clock
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+            |--1.64%-- __xstat64
+            |          entry_SYSCALL_64_fastpath
+            |          sys_newstat
+            |          SYSC_newstat
+            |          vfs_fstatat
+            |          user_path_at_empty
+            |          filename_lookup
+            |          path_lookupat
+            |          walk_component
+            |          lookup_fast
+            |          __d_lookup_rcu
+            |          
+            |--1.64%-- 0x22588
+            |          __lll_unlock_wake
+            |          int_ret_from_sys_call
+            |          syscall_return_slowpath
+            |          exit_to_usermode_loop
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+             --1.64%-- 0x1
+                       pthread_cond_timedwait@@GLIBC_2.3.2
+                       entry_SYSCALL_64_fastpath
+                       sys_futex
+                       do_futex
+                       futex_wait
+                       futex_wait_queue_me
+                       schedule
+                       __schedule
+                       finish_task_switch
+
+    13.11%     3.28%  libc-2.23.so           
+            |          
+            |--4.92%-- syscall
+            |          entry_SYSCALL_64_fastpath
+            |          sys_epoll_wait
+            |          ep_poll
+            |          |          
+            |          |--3.28%-- schedule_hrtimeout_range
+            |          |          schedule_hrtimeout_range_clock
+            |          |          schedule
+            |          |          __schedule
+            |          |          finish_task_switch
+            |          |          
+            |           --1.64%-- ep_scan_ready_list
+            |                     ep_send_events_proc
+            |                     sock_poll
+            |          
+            |--3.28%-- 0xfb80d
+            |          entry_SYSCALL_64_fastpath
+            |          sys_poll
+            |          do_sys_poll
+            |          poll_schedule_timeout
+            |          schedule_hrtimeout_range
+            |          schedule_hrtimeout_range_clock
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+            |--1.64%-- 0xed05740f66066f0f
+            |          0x92b5d0
+            |          0x1
+            |          __memset_avx2
+            |          
+            |--1.64%-- __GI___libc_poll
+            |          
+             --1.64%-- __xstat64
+                       entry_SYSCALL_64_fastpath
+                       sys_newstat
+                       SYSC_newstat
+                       vfs_fstatat
+                       user_path_at_empty
+                       filename_lookup
+                       path_lookupat
+                       walk_component
+                       lookup_fast
+                       __d_lookup_rcu
+
+    11.48%     1.64%  libpthread-2.23.so     
+            |          
+            |--3.28%-- __GI___libc_recvmsg
+            |          |          
+            |           --1.64%-- entry_SYSCALL_64_fastpath
+            |                     sys_recvmsg
+            |                     __sys_recvmsg
+            |                     ___sys_recvmsg
+            |                     copy_msghdr_from_user
+            |          
+            |--3.28%-- pthread_cond_timedwait@@GLIBC_2.3.2
+            |          entry_SYSCALL_64_fastpath
+            |          sys_futex
+            |          do_futex
+            |          futex_wait
+            |          futex_wait_queue_me
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+            |--1.64%-- __lll_unlock_wake
+            |          int_ret_from_sys_call
+            |          syscall_return_slowpath
+            |          exit_to_usermode_loop
+            |          schedule
+            |          __schedule
+            |          finish_task_switch
+            |          
+            |--1.64%-- pthread_cond_signal@@GLIBC_2.3.2
+            |          entry_SYSCALL_64_fastpath
+            |          sys_futex
+            |          do_futex
+            |          futex_wake_op
+            |          wake_up_q
+            |          try_to_wake_up
+            |          _raw_spin_unlock_irqrestore
+            |          
+             --1.64%-- pthread_cond_wait@@GLIBC_2.3.2
+                       entry_SYSCALL_64_fastpath
+                       sys_futex
+                       do_futex
+                       futex_wait
+                       futex_wait_queue_me
+                       schedule
+                       __schedule
+                       finish_task_switch
+
+     8.20%     8.20%  firefox                
+            |          
+            |--3.28%-- 0x2825048b4864
+            |          0x2fb3700
+            |          0x4
+            |          0xa2bbc464
+            |          |          
+            |          |--1.64%-- mozilla::BaseTimeDurationPlatformUtils::ToSeconds
+            |          |          
+            |           --1.64%-- moz_xmalloc
+            |          
+            |--1.64%-- 0x8d48fb8948f78949
+            |          0xef52f0
+            |          0x1
+            |          0x80762
+            |          
+            |--1.64%-- 0x8095e
+            |          
+             --1.64%-- 0x100002040
+                       0x80234
+
+     1.64%     1.64%  [vdso]                 
+            |
+            ---0x62094cac8053fe00
+               0x1
+               __vdso_clock_gettime
+
+     1.64%     1.64%  ld-2.23.so             
+            |
+            ---0x7f668df0b000
+               __tls_get_addr
+
+     1.64%     1.64%  libX11.so.6.3.0        
+            |
+            ---0x2b400
+
+     1.64%     1.64%  libdbus-glib-1.so.2.3.3
+            |
+            ---0xa030
+
+     1.64%     1.64%  libxcb.so.1.1.0        
+            |
+            ---pthread_mutex_lock@plt
+
+     1.64%     1.64%  libglib-2.0.so.0.4800.2
+            |
+            ---0
+               0x7f6600000001
+               0x47434
+
+     1.64%     1.64%  libnspr4.so            
+            |
+            ---0x401f0ffda7a954
+               0x2eac4b0
+               0x7f66a226dd08
+               _init
+
+
+

@@ -1,0 +1,366 @@
+firefox  8256 124136.622540:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff81869a35 schedule_hrtimeout_range_clock ([kernel.kallsyms])
+	    7fff81869a63 schedule_hrtimeout_range ([kernel.kallsyms])
+	    7fff812355e4 poll_schedule_timeout ([kernel.kallsyms])
+	    7fff81236c73 do_sys_poll ([kernel.kallsyms])
+	    7fff81236e95 sys_poll ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	           fb80d [unknown] (/lib/x86_64-linux-gnu/libc-2.23.so)
+	             285 [unknown] ([unknown])
+	ff24448d491374e4 [unknown] ([unknown])
+
+Softwar~cThread  8284 124137.072296:     250000 cpu-clock: 
+	           85140 moz_xmalloc (/usr/lib/firefox/firefox)
+	        a2bbc464 [unknown] ([unknown])
+	               4 [unknown] ([unknown])
+	         2fb3700 [unknown] (/usr/lib/firefox/libxul.so)
+	    2825048b4864 [unknown] ([unknown])
+
+firefox  8256 124137.507080:     250000 cpu-clock: 
+	    7fff8173c24d copy_msghdr_from_user ([kernel.kallsyms])
+	    7fff8173c6b8 ___sys_recvmsg ([kernel.kallsyms])
+	    7fff8173d201 __sys_recvmsg ([kernel.kallsyms])
+	    7fff8173d252 sys_recvmsg ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	           1094d __GI___libc_recvmsg (/lib/x86_64-linux-gnu/libpthread-2.23.so)
+	             285 [unknown] ([unknown])
+	ff24448d491374e4 [unknown] ([unknown])
+
+IPDL Background  8288 124137.509754:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff8110b760 futex_wait_queue_me ([kernel.kallsyms])
+	    7fff8110c496 futex_wait ([kernel.kallsyms])
+	    7fff8110ea00 do_futex ([kernel.kallsyms])
+	    7fff8110ef01 sys_futex ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	            d360 pthread_cond_wait@@GLIBC_2.3.2 (/lib/x86_64-linux-gnu/libpthread-2.23.so)
+	               0 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  8256 124137.523041:     250000 cpu-clock: 
+	         15ca807 [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124137.732391:     250000 cpu-clock: 
+	          90ab1a [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124137.823195:     250000 cpu-clock: 
+	         2e87710 [unknown] (/usr/lib/firefox/libxul.so)
+	    7f668cf9f510 [unknown] ([unknown])
+
+firefox  8256 124138.273031:     250000 cpu-clock: 
+	         169362b [unknown] (/usr/lib/firefox/libxul.so)
+	               1 [unknown] ([unknown])
+	         1694a40 [unknown] (/usr/lib/firefox/libxul.so)
+	8d058d48fe894953 [unknown] ([unknown])
+
+Softwar~cThread  8284 124138.323019:     250000 cpu-clock: 
+	           c43cd mozilla::BaseTimeDurationPlatformUtils::ToSeconds (/usr/lib/firefox/firefox)
+	        a2bbc464 [unknown] ([unknown])
+	               4 [unknown] ([unknown])
+	         2fb3700 [unknown] (/usr/lib/firefox/libxul.so)
+	    2825048b4864 [unknown] ([unknown])
+
+Softwar~cThread  8284 124138.506475:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff8110b760 futex_wait_queue_me ([kernel.kallsyms])
+	    7fff8110c496 futex_wait ([kernel.kallsyms])
+	    7fff8110ea00 do_futex ([kernel.kallsyms])
+	    7fff8110ef01 sys_futex ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	            d709 pthread_cond_timedwait@@GLIBC_2.3.2 (/lib/x86_64-linux-gnu/libpthread-2.23.so)
+	        a2bbc464 [unknown] ([unknown])
+	               4 [unknown] ([unknown])
+	         2fb3700 [unknown] (/usr/lib/firefox/libxul.so)
+	    2825048b4864 [unknown] ([unknown])
+
+Gecko_IOThread  8266 124138.511603:     250000 cpu-clock: 
+	             a10 __vdso_clock_gettime ([vdso])
+	               1 [unknown] ([unknown])
+	62094cac8053fe00 [unknown] ([unknown])
+
+firefox  8256 124138.522591:     250000 cpu-clock: 
+	         30b1839 [unknown] (/usr/lib/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	         310ef30 [unknown] (/usr/lib/firefox/libxul.so)
+	f8894804751ffe83 [unknown] ([unknown])
+
+firefox  8256 124138.522741:     250000 cpu-clock: 
+	         3de2d9b [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124138.556393:     250000 cpu-clock: 
+	            a258 _init (/usr/lib/firefox/libnspr4.so)
+	    7f66a226dd08 [unknown] ([unknown])
+	         2eac4b0 [unknown] (/usr/lib/firefox/libxul.so)
+	  401f0ffda7a954 [unknown] ([unknown])
+
+firefox  8256 124138.572398:     250000 cpu-clock: 
+	         2ecee0f [unknown] (/usr/lib/firefox/libxul.so)
+	    7f66a2063c70 [unknown] ([unknown])
+
+Softwar~cThread  8284 124138.605596:     250000 cpu-clock: 
+	          eb55a3 [unknown] (/usr/lib/firefox/libxul.so)
+	               1 [unknown] ([unknown])
+
+firefox  8256 124138.605749:     250000 cpu-clock: 
+	         4e7584a [unknown] (/usr/lib/firefox/libxul.so)
+	         4e72a98 [unknown] (/usr/lib/firefox/libxul.so)
+	       200000000 [unknown] ([unknown])
+
+firefox  8256 124138.605893:     250000 cpu-clock: 
+	            9670 pthread_mutex_lock@plt (/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+
+firefox  8256 124138.640113:     250000 cpu-clock: 
+	         2da3952 [unknown] (/usr/lib/firefox/libxul.so)
+
+Softwar~cThread  8284 124138.722819:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff8110b760 futex_wait_queue_me ([kernel.kallsyms])
+	    7fff8110c496 futex_wait ([kernel.kallsyms])
+	    7fff8110ea00 do_futex ([kernel.kallsyms])
+	    7fff8110ef01 sys_futex ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	            d709 pthread_cond_timedwait@@GLIBC_2.3.2 (/lib/x86_64-linux-gnu/libpthread-2.23.so)
+	               1 [unknown] ([unknown])
+
+firefox  8256 124138.790584:     250000 cpu-clock: 
+	           80234 [unknown] (/usr/lib/firefox/firefox)
+	       100002040 [unknown] ([unknown])
+
+Gecko_IOThread  8266 124138.854386:     250000 cpu-clock: 
+	    7fff8173ba0c sock_poll ([kernel.kallsyms])
+	    7fff8126a0fd ep_send_events_proc ([kernel.kallsyms])
+	    7fff8126aa7c ep_scan_ready_list ([kernel.kallsyms])
+	    7fff8126ae2a ep_poll ([kernel.kallsyms])
+	    7fff8126be98 sys_epoll_wait ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	          101599 syscall (/lib/x86_64-linux-gnu/libc-2.23.so)
+	               1 [unknown] ([unknown])
+	62094cac8053fe00 [unknown] ([unknown])
+
+firefox  8256 124139.172536:     250000 cpu-clock: 
+	           2b400 [unknown] (/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+
+firefox  8256 124139.573464:     250000 cpu-clock: 
+	         30a017b [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124139.607033:     250000 cpu-clock: 
+	         26faf57 [unknown] (/usr/lib/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	    7f668b92c418 [unknown] ([unknown])
+
+firefox  8256 124139.607372:     250000 cpu-clock: 
+	         32f2f4c [unknown] (/usr/lib/firefox/libxul.so)
+	             8ac [unknown] ([unknown])
+	         32774f0 [unknown] (/usr/lib/firefox/libxul.so)
+	9066ffe82d42e9c3 [unknown] ([unknown])
+
+firefox  8256 124139.622333:     250000 cpu-clock: 
+	         26faf5d [unknown] (/usr/lib/firefox/libxul.so)
+	               0 [unknown] ([unknown])
+	    7f668b92b7e8 [unknown] ([unknown])
+
+firefox  8256 124139.657302:     250000 cpu-clock: 
+	           8095e [unknown] (/usr/lib/firefox/firefox)
+
+firefox  8256 124139.690406:     250000 cpu-clock: 
+	    7fff8123a795 __d_lookup_rcu ([kernel.kallsyms])
+	    7fff8122ba17 lookup_fast ([kernel.kallsyms])
+	    7fff8122d489 walk_component ([kernel.kallsyms])
+	    7fff8122e45d path_lookupat ([kernel.kallsyms])
+	    7fff81230ab1 filename_lookup ([kernel.kallsyms])
+	    7fff81230c56 user_path_at_empty ([kernel.kallsyms])
+	    7fff81225996 vfs_fstatat ([kernel.kallsyms])
+	    7fff81225eee SYSC_newstat ([kernel.kallsyms])
+	    7fff8122607e sys_newstat ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	           f6ca5 __xstat64 (/lib/x86_64-linux-gnu/libc-2.23.so)
+
+Gecko_IOThread  8266 124139.743109:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff81869a35 schedule_hrtimeout_range_clock ([kernel.kallsyms])
+	    7fff81869a63 schedule_hrtimeout_range ([kernel.kallsyms])
+	    7fff8126aed0 ep_poll ([kernel.kallsyms])
+	    7fff8126be98 sys_epoll_wait ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	          101599 syscall (/lib/x86_64-linux-gnu/libc-2.23.so)
+	               1 [unknown] ([unknown])
+	62094cac8053fe00 [unknown] ([unknown])
+
+Gecko_IOThread  8266 124139.872223:     250000 cpu-clock: 
+	    7fff8186a5db _raw_spin_unlock_irqrestore ([kernel.kallsyms])
+	    7fff810b5199 try_to_wake_up ([kernel.kallsyms])
+	    7fff810b55a2 wake_up_q ([kernel.kallsyms])
+	    7fff8110cb7a futex_wake_op ([kernel.kallsyms])
+	    7fff8110ebce do_futex ([kernel.kallsyms])
+	    7fff8110ef01 sys_futex ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	            da26 pthread_cond_signal@@GLIBC_2.3.2 (/lib/x86_64-linux-gnu/libpthread-2.23.so)
+	               0 [unknown] ([unknown])
+
+Softwar~cThread  8284 124139.872303:     250000 cpu-clock: 
+	         30488e6 [unknown] (/usr/lib/firefox/libxul.so)
+
+IPDL Background  8288 124139.872356:     250000 cpu-clock: 
+	           80762 [unknown] (/usr/lib/firefox/firefox)
+	               1 [unknown] ([unknown])
+	          ef52f0 [unknown] (/usr/lib/firefox/libxul.so)
+	8d48fb8948f78949 [unknown] ([unknown])
+
+firefox  8256 124139.872389:     250000 cpu-clock: 
+	            a030 [unknown] (/usr/lib/x86_64-linux-gnu/libdbus-glib-1.so.2.3.3)
+
+firefox  8256 124139.872662:     250000 cpu-clock: 
+	         164e030 [unknown] (/usr/lib/firefox/libxul.so)
+	   2000100000000 [unknown] ([unknown])
+	      29006c006c [unknown] ([unknown])
+
+firefox  8256 124139.889652:     250000 cpu-clock: 
+	           1094d __GI___libc_recvmsg (/lib/x86_64-linux-gnu/libpthread-2.23.so)
+
+firefox  8256 124139.939848:     250000 cpu-clock: 
+	         15bac68 [unknown] (/usr/lib/firefox/libxul.so)
+	               4 [unknown] ([unknown])
+
+firefox  8256 124140.290545:     250000 cpu-clock: 
+	         15d2411 [unknown] (/usr/lib/firefox/libxul.so)
+	    7f666ab48000 [unknown] ([unknown])
+	         15d13f0 [unknown] (/usr/lib/firefox/libxul.so)
+	2d058d48fe894953 [unknown] ([unknown])
+
+firefox  8256 124140.322664:     250000 cpu-clock: 
+	         2f29180 [unknown] (/usr/lib/firefox/libxul.so)
+	    7f66a226dd08 [unknown] ([unknown])
+	         2eac4b0 [unknown] (/usr/lib/firefox/libxul.so)
+	  401f0ffda7a954 [unknown] ([unknown])
+
+firefox  8256 124140.355549:     250000 cpu-clock: 
+	           47434 [unknown] (/lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2)
+	    7f6600000001 [unknown] ([unknown])
+	               0 [unknown] ([unknown])
+
+firefox  8256 124140.523243:     250000 cpu-clock: 
+	         15d3b30 [unknown] (/usr/lib/firefox/libxul.so)
+	         1000001 [unknown] ([unknown])
+
+firefox  8256 124140.639796:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff81869a35 schedule_hrtimeout_range_clock ([kernel.kallsyms])
+	    7fff81869a63 schedule_hrtimeout_range ([kernel.kallsyms])
+	    7fff812355e4 poll_schedule_timeout ([kernel.kallsyms])
+	    7fff81236c73 do_sys_poll ([kernel.kallsyms])
+	    7fff81236e95 sys_poll ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	           fb80d [unknown] (/lib/x86_64-linux-gnu/libc-2.23.so)
+	         1000001 [unknown] ([unknown])
+
+Softwar~cThread  8284 124140.655767:     250000 cpu-clock: 
+	           13cf9 __tls_get_addr (/lib/x86_64-linux-gnu/ld-2.23.so)
+	    7f668df0b000 [unknown] ([unknown])
+
+Gecko_IOThread  8266 124140.741698:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff81869a35 schedule_hrtimeout_range_clock ([kernel.kallsyms])
+	    7fff81869a63 schedule_hrtimeout_range ([kernel.kallsyms])
+	    7fff8126aed0 ep_poll ([kernel.kallsyms])
+	    7fff8126be98 sys_epoll_wait ([kernel.kallsyms])
+	    7fff8186a95b entry_SYSCALL_64_fastpath ([kernel.kallsyms])
+	          101599 syscall (/lib/x86_64-linux-gnu/libc-2.23.so)
+	               1 [unknown] ([unknown])
+	62094cac8053fe00 [unknown] ([unknown])
+
+firefox  8256 124141.140847:     250000 cpu-clock: 
+	    7fff810b2a28 finish_task_switch ([kernel.kallsyms])
+	    7fff81865ad1 __schedule ([kernel.kallsyms])
+	    7fff81865fd5 schedule ([kernel.kallsyms])
+	    7fff810054e2 exit_to_usermode_loop ([kernel.kallsyms])
+	    7fff81005c9a syscall_return_slowpath ([kernel.kallsyms])
+	    7fff8186ab18 int_ret_from_sys_call ([kernel.kallsyms])
+	           1030a __lll_unlock_wake (/lib/x86_64-linux-gnu/libpthread-2.23.so)
+	           22588 [unknown] ([unknown])
+
+firefox  8256 124141.157550:     250000 cpu-clock: 
+	         25cc41c [unknown] (/usr/lib/firefox/libxul.so)
+	      7f66a22d75 [unknown] ([unknown])
+
+firefox  8256 124141.157793:     250000 cpu-clock: 
+	         122e1eb [unknown] (/usr/lib/firefox/libxul.so)
+	e5e5e5e500000000 [unknown] ([unknown])
+	          92c5a0 [unknown] (/usr/lib/firefox/libxul.so)
+	2825048b4864d189 [unknown] ([unknown])
+
+firefox  8256 124141.158112:     250000 cpu-clock: 
+	          91bef6 [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124141.158294:     250000 cpu-clock: 
+	         1954ff0 [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124141.158549:     250000 cpu-clock: 
+	          931c08 [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124141.158900:     250000 cpu-clock: 
+	          92c80c [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124141.159024:     250000 cpu-clock: 
+	         460950c [unknown] (/usr/lib/firefox/libxul.so)
+	    7f6690850800 [unknown] ([unknown])
+	    298ca8ee1678 [unknown] ([unknown])
+	    250002770080 [unknown] ([unknown])
+	         2000000 [unknown] ([unknown])
+	  6e6f6974636e75 [unknown] ([unknown])
+
+firefox  8256 124141.159311:     250000 cpu-clock: 
+	         42cad3c [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124141.159595:     250000 cpu-clock: 
+	          92c80c [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124141.159828:     250000 cpu-clock: 
+	         4198d55 [unknown] (/usr/lib/firefox/libxul.so)
+
+firefox  8256 124141.160069:     250000 cpu-clock: 
+	          172bb8 __memset_avx2 (/lib/x86_64-linux-gnu/libc-2.23.so)
+	               1 [unknown] ([unknown])
+	          92b5d0 [unknown] (/usr/lib/firefox/libxul.so)
+	ed05740f66066f0f [unknown] ([unknown])
+
+firefox  8256 124141.590167:     250000 cpu-clock: 
+	         4b86e9c [unknown] (/usr/lib/firefox/libxul.so)
+	    7ffc89e56ac0 [unknown] ([unknown])
+	    7f668dfa8358 [unknown] ([unknown])
+	      6b7261442d [unknown] ([unknown])
+
+firefox  8256 124141.624040:     250000 cpu-clock: 
+	         4b8662b [unknown] (/usr/lib/firefox/libxul.so)
+	        3d929a00 [unknown] ([unknown])
+
+firefox  8256 124141.640017:     250000 cpu-clock: 
+	          ab2ca0 [unknown] (/usr/lib/firefox/libxul.so)
+	    7f66a1fc5400 [unknown] ([unknown])
+	          ab2910 [unknown] (/usr/lib/firefox/libxul.so)
+	b848066f0ff3fb89 [unknown] ([unknown])
+
+Softwar~cThread  8284 124141.705923:     250000 cpu-clock: 
+	         1732430 [unknown] (/usr/lib/firefox/libxul.so)
+	        a2bbc464 [unknown] ([unknown])
+	               4 [unknown] ([unknown])
+	         2fb3700 [unknown] (/usr/lib/firefox/libxul.so)
+	    2825048b4864 [unknown] ([unknown])
+
+firefox  8256 124141.737702:     250000 cpu-clock: 
+	           fb7e7 __GI___libc_poll (/lib/x86_64-linux-gnu/libc-2.23.so)
+
